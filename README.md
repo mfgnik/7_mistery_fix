@@ -6,7 +6,7 @@
 Функция get_roots принимает на вход три аргументы и возвращает кортеж из корней квадратного уравнения. Если корней меньше двух, то на  месте отсутствующих корней она возращает None.
 
 
-```
+```python
 from quadratic_equation import get_roots
 
 print(get_roots(map(int, input().split())))
